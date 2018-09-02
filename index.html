@@ -1,8 +1,19 @@
 <html>
 <head>
+    <link rel="stylesheet" href="./node_modules/markmap/view.mindmap.css">
+    <style>
+        svg#mindmap {
+            width: 600px;
+            height: 400px;
+            border: 1px solid red;
+        }
+    </style>
+    <script src="./node_modules/d3/d3.js"></script>
+    <script src="./node_modules/markmap/d3-flextree.js"></script>
+    <script src="./node_modules/markmap/view.mindmap.js"></script>
 </head>
 <body>
-<div id="main"></div>
+<svg id="mindmap"></svg>
 <script src="./index.js"></script>
 </body>
 </html>

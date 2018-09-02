@@ -1,6 +1,11 @@
-Js Hello World Demo
-===================
+JavaScript Markmap Demo
+=======================
 
-Open `index.html` in your browser.
+Convert a markdown file to a mindmap.
 
-You will see "Hello, JS!" on the page.
+```
+npm install
+npm start
+```
+
+![demo](./images/demo.jpg)
